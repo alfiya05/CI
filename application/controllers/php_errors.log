@@ -1,0 +1,4 @@
+[18-Jan-2022 10:25:33 UTC] PHP Fatal error:  Uncaught Error: Class "CI_Controller" not found in C:\Apache24\htdocs\codeigniter\application\controllers\Users.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\controllers\Users.php on line 4
