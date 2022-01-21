@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -52,3 +52,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+// session
+
+$route['login'] = 'loginController/login';
+
+// $route['flash_index'] = 'session controller';
+// $route['flash_message'] = 'session controller/flash_message';
+
+// $route['login'] = 'sessioncontroller/login';
+// $route['authenticate'] = 'sessioncontroller/authenticate';
+// $route['settings'] = 'sessioncontroller/settings';
+// $route['dashboard'] = 'sessioncontroller/dashboard';
+// $route['logout'] = 'sessioncontroller/logout';
