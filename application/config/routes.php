@@ -57,6 +57,8 @@ $route['translate_uri_dashes'] = FALSE;
 // session
 
 $route['login'] = 'loginController/login';
+$route['authlogin'] = 'authController/authlogin';
+$route['authregister'] = 'authController/authregister';
 
 // $route['flash_index'] = 'session controller';
 // $route['flash_message'] = 'session controller/flash_message';
