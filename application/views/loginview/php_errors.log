@@ -1,0 +1,20 @@
+[25-Jan-2022 13:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in C:\Apache24\htdocs\codeigniter\application\views\loginview\adashboard.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\views\loginview\adashboard.php on line 18
+[28-Jan-2022 10:56:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in C:\Apache24\htdocs\codeigniter\application\views\loginview\aregister.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\views\loginview\aregister.php on line 20
+[28-Jan-2022 10:56:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in C:\Apache24\htdocs\codeigniter\application\views\loginview\aregister.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\views\loginview\aregister.php on line 20
+[29-Jan-2022 05:59:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in C:\Apache24\htdocs\codeigniter\application\views\loginview\home.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\views\loginview\home.php on line 15
+[31-Jan-2022 04:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in C:\Apache24\htdocs\codeigniter\application\views\loginview\home.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\codeigniter\application\views\loginview\home.php on line 15

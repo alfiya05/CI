@@ -60,6 +60,11 @@ $route['login'] = 'loginController/login';
 $route['authlogin'] = 'authController/authlogin';
 $route['authregister'] = 'authController/authregister';
 
+$route['alogin'] = 'Authentication/Acontroller/alogin';
+$route['aregister'] = 'Authentication/Acontroller/aregister';
+$route['adashboard'] = 'Authentication/Acontroller/adashboard';
+$route['home'] = 'Authentication/Acontroller/home';
+
 // $route['flash_index'] = 'session controller';
 // $route['flash_message'] = 'session controller/flash_message';
 
