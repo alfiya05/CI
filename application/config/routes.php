@@ -65,11 +65,11 @@ $route['aregister'] = 'Authentication/Acontroller/aregister';
 $route['adashboard'] = 'Authentication/Acontroller/adashboard';
 $route['home'] = 'Authentication/Acontroller/home';
 
-// $route['flash_index'] = 'session controller';
-// $route['flash_message'] = 'session controller/flash_message';
 
-// $route['login'] = 'sessioncontroller/login';
-// $route['authenticate'] = 'sessioncontroller/authenticate';
-// $route['settings'] = 'sessioncontroller/settings';
-// $route['dashboard'] = 'sessioncontroller/dashboard';
-// $route['logout'] = 'sessioncontroller/logout';
+//Api routes
+$route['api/demo'] = 'api/ApiDemoController/index';
+$route['api/employee'] = 'api/ApiEmployeeController/indexEmployee';
+$route['api/employee/add'] = 'api/ApiEmployeeController/addEmp';
+$route['api/employee/find/(:any)'] = 'api/ApiEmployeeController/findEmp/$1';
+$route['api/employee/update/(:any)'] = 'api/ApiEmployeeController/updateEmp/$1';
+$route['api/employee/delete/(:any)'] = 'api/ApiEmployeeController/deleteEmp/$1';
