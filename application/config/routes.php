@@ -73,3 +73,8 @@ $route['api/employee/add'] = 'api/ApiEmployeeController/addEmp';
 $route['api/employee/find/(:any)'] = 'api/ApiEmployeeController/findEmp/$1';
 $route['api/employee/update/(:any)'] = 'api/ApiEmployeeController/updateEmp/$1';
 $route['api/employee/delete/(:any)'] = 'api/ApiEmployeeController/deleteEmp/$1';
+
+
+$route['api'] = 'api/ApiAuthenticationController/index';
+$route['api/login'] = 'api/ApiAuthenticationController/login';
+$route['api/register'] = 'api/ApiAuthenticationController/register';
